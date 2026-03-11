@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editTextRoomId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mã phòng" />
+
+        <EditText
+            android:id="@+id/editTextRoomName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tên phòng"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/editTextRoomPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Giá thuê"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="8dp" />
+
+        <CheckBox
+            android:id="@+id/checkBoxIsRented"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Đã thuê"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/editTextTenantName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tên người thuê"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/editTextPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Số điện thoại"
+            android:inputType="phone"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/buttonSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lưu"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+</ScrollView>
